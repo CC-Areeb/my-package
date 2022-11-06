@@ -34,4 +34,9 @@ Stack trace:
 
 # Reference video (for windows):- https://www.youtube.com/watch?v=c0cmRy3lhDQ 
 
-# To execute test cases use the following command :- ./vendor/bin/phpunit
+# To execute test cases use the following command:- ./vendor/bin/phpunit
+
+# install the parsedown from the following website:- https://parsedown.org/
+# click on the github if you want to download using composer
+
+# To execute the test cases use the following command :- ./vendor/bin/phpunit
