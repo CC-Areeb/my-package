@@ -4,7 +4,6 @@ namespace Areeb\Mypackage\Tests;
 
 use Illuminate\Mail\Markdown;
 use Orchestra\Testbench\TestCase;
-use Parsedown;
 
 class MarkdownTest extends TestCase
 {

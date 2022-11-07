@@ -34,9 +34,18 @@ https://phpunit.de/getting-started/phpunit-9.html
 
 Reference video (for windows):- https://www.youtube.com/watch?v=c0cmRy3lhDQ 
 
+<<<<<<< HEAD
 To execute test cases use the following command:- ./vendor/bin/phpunit
 
 install the parsedown from the following website:- https://parsedown.org/
 click on the github if you want to download using composer
 
 To execute the test cases use the following command :- ./vendor/bin/phpunit
+=======
+# To execute test cases use the following command:- ./vendor/bin/phpunit
+
+# install the parsedown from the following website:- https://parsedown.org/
+# click on the github if you want to download using composer
+
+# To execute the test cases use the following command :- ./vendor/bin/phpunit
+>>>>>>> 8bb169b (Installed and working on markdown parser)
