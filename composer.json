@@ -1,0 +1,27 @@
+{
+    "name": "areeb/mypackage",
+    "description": "My test package",
+    "autoload": {
+        "psr-4": {
+            "Areeb\\Mypackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Areeb\\Mypackage\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Areeb Malik",
+            "email": "malikareeb40@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^7.11",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
