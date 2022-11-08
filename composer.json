@@ -2,6 +2,9 @@
     "name": "areeb/mypackage",
     "description": "My test package",
     "autoload": {
+        "files": [
+            "src/Helper/Constants.php"
+        ],
         "psr-4": {
             "Areeb\\Mypackage\\": "src/"
         }
@@ -18,10 +21,18 @@
         }
     ],
     "require-dev": {
-        "orchestra/testbench": "^7.11",
-        "phpunit/phpunit": "^9.5"
+        "orchestra/testbench": "^7.11"
     },
     "require": {
-        "erusev/parsedown": "^1.7"
+        "erusev/parsedown": "^1.7",
+        "phpunit/phpunit": "^9"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers" :[
+                "Areeb\\Mypackage\\EmailBaseServiceProvider"
+            ]
+        }
     }
 }
