@@ -2,7 +2,7 @@
 
 namespace Areeb\Mypackage;
 
-class MarkdownParser 
+class MarkdownParser
 {
     public static function parse($string)
     {
